@@ -1,4 +1,4 @@
-export const MusicCardContent = [{
+export const RecentsContent = [{
     id: 0,
     imageUrl: '/album.jpeg',
     title: 'Vida Chique',

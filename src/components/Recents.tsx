@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function MusicCard({
+export default function Recents({
   imageUrl,
   title,
   artist,
