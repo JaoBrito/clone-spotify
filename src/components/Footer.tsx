@@ -1,3 +1,4 @@
+
 import { Shuffle, SkipBack, Play, SkipForward, Repeat, Mic2, LayoutList, Laptop2, Volume, Maximize2, Heart, PictureInPicture, PictureInPicture2 } from "lucide-react";
 import Image from "next/image";
 

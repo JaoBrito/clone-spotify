@@ -1,5 +1,5 @@
 import { Footer } from "@/components/Footer";
-import MusicCard from "@/components/MusicCard";
+import MusicCard from "@/components/Recents";
 import { Sidebar } from "@/components/Sidebar";
 import {
   Home as HomeIcon,
@@ -19,7 +19,7 @@ import {
   Maximize,
   Maximize2,
 } from "lucide-react";
-import { MusicCardContent } from "@/components/MusicCardContent";
+import { MusicCardContent } from "@/MockDB/RecentsContent";
 import Image from "next/image";
 export default function Home() {
   return (
@@ -64,7 +64,7 @@ export default function Home() {
             </a>
             <a
               href=""
-              className="bg-white/5 group flex items-center gap-4 rounded overflow-hidden hover:bg-white/10 transition-colors"
+              className="bg-white/5 flex group  items-center gap-4 rounded overflow-hidden hover:bg-white/10 transition-colors"
             >
               <Image
                 src="/album-dospredio.jpeg"
